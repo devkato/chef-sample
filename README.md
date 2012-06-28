@@ -1,5 +1,5 @@
 
-node_your_server
+your_server.json
 
     {
       "run_list": [
