@@ -2,7 +2,6 @@
 node_your_server
 
     {
-    
       "run_list": [
         "recipe[your_server]"
       ],
