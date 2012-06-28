@@ -1,5 +1,5 @@
 
-your_server.json
+# your_server.json
 
     {
       "run_list": [
@@ -12,3 +12,10 @@ your_server.json
         "home_dir": "path_to_home"
       }
     }
+
+
+# run chef-solo
+
+    chef-solo -c solo.rb -j your_server.json
+
+
