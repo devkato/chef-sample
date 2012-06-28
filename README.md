@@ -13,6 +13,9 @@
       }
     }
 
+# sync files to remote servers
+
+    rsync -r . ${1}:/root
 
 # run chef-solo
 
