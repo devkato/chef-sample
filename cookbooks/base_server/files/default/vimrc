@@ -1,0 +1,93 @@
+" ================================================================================
+"
+"
+"
+" ================================================================================
+
+" --------------------------------------------------------------------------------
+" Editor Display Settings
+" --------------------------------------------------------------------------------
+set t_Co=256
+set encoding=utf8
+
+set nocompatible
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
+set autoindent
+set copyindent
+set number
+set ruler
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set smarttab
+set backspace=indent,eol,start
+set shiftround
+set laststatus=2
+set showcmd
+set title
+set wildmenu
+set wildmode=list:full
+set cmdheight=2
+set scrolloff=2
+set statusline=%<%f\ %m%r%h%w%y%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%4v\ %l/%L
+set hidden
+set showmode
+set modelines=0
+
+
+" --------------------------------------------------------------------------------
+" Backup Settings
+" --------------------------------------------------------------------------------
+set nobackup
+set noswapfile
+
+
+" --------------------------------------------------------------------------------
+" Search Settings
+" --------------------------------------------------------------------------------
+set ignorecase
+set smartcase
+set wrapscan
+set gdefault
+set incsearch
+set hlsearch
+
+set history=1000
+set undolevels=1000
+
+" --------------------------------------------------------------------------------
+" Bell Settings
+" --------------------------------------------------------------------------------
+set visualbell
+set noerrorbells
+
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+"set colorcolumn=120
+"set list
+"set listchars=tab:▸\ ,eol:¬
+"set listchars=eol:¬
+
+
+let mapleader = ","
+nnoremap / /\v
+vnoremap / /\v
+
+nnoremap ; :
+nmap <silent> ,/ :let @/=""<CR>
+
+" disable allow keys
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+

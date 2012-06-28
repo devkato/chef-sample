@@ -1,0 +1,13 @@
+escape ^Tt
+vbell off
+hardstatus ignore "[screen %n] %h"
+caption always "[%02c] %`%-w%{=b bw}%n %t%{-}%+w"
+defhstatus "^En:^Et"
+termcapinfo * 'hs:ts=\E]2;:fs=\007:ds=\E]0;screen\007'
+shelltitle "$ |bash"
+startup_message off
+autodetach on
+defscrollback 4096
+encoding utf8
+echo 'export LANG=ja_JP.UTF-8'
+attrcolor b ".I"
