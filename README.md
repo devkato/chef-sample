@@ -1,8 +1,6 @@
 
 node_your_server
 
-`
-
     {
     
       "run_list": [
@@ -15,5 +13,3 @@ node_your_server
         "home_dir": "path_to_home"
       }
     }
-
-`
