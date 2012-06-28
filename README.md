@@ -1,12 +1,23 @@
 
+node_your_server
+`
 {
+
   "run_list": [
-    "recipe[base_server]"
+
+    "recipe[your_server]"
+
   ],
 
   "default_user": {
-    "name":     "geek",
+
+    "name":     "your_account_name",
+
     "password": "your_hashed_password",
-    "home_dir": "/home/geek"
+
+    "home_dir": "path_to_home"
+
   }
+
 }
+`
