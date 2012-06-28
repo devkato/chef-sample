@@ -13,6 +13,13 @@
       }
     }
 
+to create hashed password ...
+
+    openssl passwd -1
+    (type your password)
+
+and paste result to "your_hashed_password".
+
 # sync files to remote servers as root
 
     rsync -r . your-server:/root
